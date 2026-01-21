@@ -1,12 +1,12 @@
 """
-Compute realism metrics for a synthetic distribution feeder.
+Compute realism metrics for a radial distribution feeder.
 Just run this script in the same folder as:
   • BusCoords.csv
   • lines.dss
   • loads.dss
   • sources.dss
 
-Outputs go to ./synth_metrics/
+Outputs go to ./_metrics/
 """
 import os, re, math
 import numpy as np, pandas as pd, networkx as nx, matplotlib.pyplot as plt
